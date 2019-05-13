@@ -1,7 +1,7 @@
 package Everything;
 
 class TheIntroduction {
-    protected static void theIntroduction(){
+    protected static void theIntroduction() {
         System.out.println(" \nДобро пожаловать в BattleShip Lite!\nПеред Вами поле боевых действий размером 10х10\n" +
                 "На каждой горизонтальной линии расположен четырехпалубный корабль (длина - 4 ячейки)\n" +
                 "Ваша цель - за наименьшее количество ходов уничтожить все корабли. \n" +

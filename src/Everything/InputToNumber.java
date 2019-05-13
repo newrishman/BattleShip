@@ -30,17 +30,21 @@ class InputToNumber {
             return 8;
         } else if (line1.equalsIgnoreCase("К")) {
             return 9;
-        } else if(line1=="" || line1==" ") {System.out.println(" Вы ничего не ввели!"); return 11;}
-        else{
+        } else if (line1 == "" || line1 == " ") {
+            System.out.println(" Вы ничего не ввели!");
+            return 11;
+        } else {
             System.out.println("Вы ввели неправильную букву!");
             return 11;
         }
     }
+
     protected int getLine2() {
         if (line2 > 0 && line2 <= 11) {
             return line2 - 1;
         } else {
-            System.out.println("Вы ввели неправильную цифру!"); return 11;
+            System.out.println("Вы ввели неправильную цифру!");
+            return 11;
         }
     }
 }
